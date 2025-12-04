@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #1E6ACC;
+    /* blue */
+}
+
+
+.trophyIcon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFA64D;
+    /* orange */
+}
+
+
+.projectCards {
+    flex: 1 1 280px;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    height: 560px;
+}
+
+
+.achievementCards {
+    flex: 1 1 280px;
+    height: 200px;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1E6ACC;
+    /* blue */
+    padding: 10px 0;
+}
+
+
+#projectSection {
+    background-color: #FFA64D;
+    /* orange */
+    justify-content: center;
+    text-align: center;
+}
+
+
+.welcomeCard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    border: #1E6ACC solid 2px;
+    /* blue */
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+
+#greeting {
+    top: 0px;
+}
+
+
+.buttonRow {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
